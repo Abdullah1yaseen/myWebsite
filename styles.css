@@ -16,7 +16,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 20px;
-    background-color: #131c31;
+    background-color: #1a2338;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* .container {
@@ -43,4 +44,27 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 10px;
+    transition: 0.3s;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #60a5fa;
+    transition: 0.3s;
+
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #60a5fa;
 }
