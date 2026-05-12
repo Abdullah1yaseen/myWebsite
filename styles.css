@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #0f172a;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #131c31;
+}
+
+/* .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+} */
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
