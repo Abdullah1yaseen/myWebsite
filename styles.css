@@ -397,6 +397,51 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.project-card a:hover {
-    transform: translateY(-4px);
+
+
+.services {
+    padding: 120px 10%;
+}
+
+.service-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service-title h2 {
+    color: #f8fafc;
+    font-size: 48px;
+}
+
+.service-container {
+    flex: 1;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background: #1e293b;
+    padding: 30px 25px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid #60a5fa;
+}
+
+.service-card h3 {
+    color: #60a5fa;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.service-card p {
+    color: #cbd5e1;
+    line-height: 1.6;
 }
