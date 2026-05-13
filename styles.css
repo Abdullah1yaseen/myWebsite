@@ -138,3 +138,35 @@ nav a:hover {
     color: #60a5fa;
     transform: translateY(-3px);
 }
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.stat-num {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: #6b7280;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.stat-item:not(:last-child) {
+    border-right: 1px solid #1e2a3a;
+    padding-right: 48px;
+}
