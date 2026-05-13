@@ -556,3 +556,125 @@ form button:hover {
     color: #64748b;
     font-size: 12px;
 }
+
+
+@media (max-width: 1024px) {
+
+    nav ul {
+        gap: 25px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .skills-container,
+    .projects-container,
+    .service-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stat-item:not(:last-child) {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .skills-container,
+    .projects-container,
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2,
+    .skills-title h2,
+    .project-title h2,
+    .service-title h2,
+    .contact-title h2 {
+        font-size: 32px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card,
+    .skill-card,
+    .project-card,
+    .service-card {
+        padding: 20px;
+    }
+}
