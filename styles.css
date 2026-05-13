@@ -295,6 +295,11 @@ nav a:hover {
     transition: 0.3s;
 }
 
+.skill-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid #60a5fa;
+}
+
 .skill-card h3 {
     color: #60a5fa;
     text-align: center;
@@ -328,4 +333,70 @@ nav a:hover {
     background: rgba(96, 165, 250, 0.15);
     border-color: #60a5fa;
     color: #60a5fa;
+}
+
+.projects {
+    padding: 120px 10%;
+}
+
+.project-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.project-title h2 {
+    color: #f8fafc;
+    font-size: 48px;
+}
+
+.projects-container {
+    flex: 1;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 30px 25px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid #60a5fa;
+}
+
+.project-card h3 {
+    color: #60a5fa;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.project-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-card a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #0f172a;
+    color: #cbd5e1;
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    transform: translateY(-4px);
 }
