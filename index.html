@@ -240,179 +240,446 @@
 
 
     <section class="projects" id="projects">
+
         <div class="project-title">
             <h2>My Projects</h2>
         </div>
 
         <div class="projects-container">
-            <!-- <div class="project-card">
-                <h3>Dynamic POS system</h3>
-                <p>A fully customizable POS system to suit all types of business activities.</p>
+
+            <!-- Medical Device -->
+            <div class="project-card">
+                <h3>Multi-Sensor Health Monitoring Device</h3>
+                <p>
+                    An embedded monitoring system using multiple ESP32 boards and sensors
+                    to measure heart rate, SpO2, and temperature, with MQTT communication
+                    between devices.
+                </p>
+                <div class="list">
+                    <p>ESP32</p>
+                    <p>C</p>
+                    <p>MQTT</p>
+                    <p>Sensors</p>
+                    <p>IoT</p>
+                </div>
+                <div class="project-button">
+                    <a href="https://github.com/Abdullah1yaseen/ESP32-MQTT-Patient-Monitor">GitHub</a>
+                </div>
+            </div>
+
+            <!-- IoT Intrusion Detection -->
+            <div class="project-card">
+                <h3>IoT Intrusion Detection System</h3>
+                <p>
+                    A smart network security system using Raspberry Pi and ESP32 devices
+                    to monitor network requests, detect abnormal traffic patterns,
+                    and identify potential attacks through real-time monitoring.
+                </p>
+                <div class="list">
+                    <p>Python</p>
+                    <p>Flask</p>
+                    <p>ESP32</p>
+                    <p>Raspberry Pi</p>
+                    <p>Networking</p>
+                    <p>Cybersecurity</p>
+                </div>
+                <div class="project-button">
+                    <a href="https://github.com/Abdullah1yaseen/IoT-Intrusion-Detection">GitHub</a>
+                </div>
+            </div>
+
+            <!-- QR Scanner -->
+            <div class="project-card">
+                <h3>QR Scanner System</h3>
+                <p>
+                    A Raspberry Pi-based QR scanning system that uses a camera to detect
+                    and process QR codes, with a Flask web interface for system interaction.
+                </p>
+                <div class="list">
+                    <p>Python</p>
+                    <p>Flask</p>
+                    <p>Raspberry Pi 5</p>
+                    <p>Camera Module 3</p>
+                    <p>Computer Vision</p>
+                </div>
+                <div class="project-button">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Solar Tracker -->
+            <div class="project-card">
+                <h3>Dual-Axis Solar Tracker</h3>
+                <p>
+                    An automated solar tracking system that uses light sensors and
+                    servo motors to continuously adjust the panel orientation toward
+                    the strongest light source.
+                </p>
+                <div class="list">
+                    <p>ESP32</p>
+                    <p>C</p>
+                    <p>LDR Sensors</p>
+                    <p>Servo Motors</p>
+                    <p>Embedded Systems</p>
+                </div>
+                <!-- <div class="project-button">
+                    <a href="">GitHub</a>
+                </div> -->
+            </div>
+
+            <!-- Smart Waste -->
+            <div class="project-card">
+                <h3>Smart Waste Collection System</h3>
+                <p>
+                    An IoT-based waste monitoring system that detects bin fill levels
+                    using sensors and sends real-time data to improve collection
+                    efficiency and route planning.
+                </p>
+                <div class="list">
+                    <p>ESP32</p>
+                    <p>IoT</p>
+                    <p>Sensors</p>
+                    <p>Wireless Communication</p>
+                    <p>Smart Systems</p>
+                </div>
+                <!-- <div class="project-button">
+                    <a href="">GitHub</a>
+                </div> -->
+            </div>
+
+            <!-- Smart Employee Alert -->
+            <div class="project-card">
+                <h3>Smart Employee Alert System</h3>
+                <p>
+                    A real-time embedded system that detects customer presence and
+                    wirelessly alerts employees when assistance is required.
+                </p>
+                <div class="list">
+                    <p>ESP32</p>
+                    <p>Sensors</p>
+                    <p>IoT</p>
+                    <p>Wireless Communication</p>
+                </div>
+                <div class="project-button">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Smart Traffic Signal System -->
+            <div class="project-card">
+                <h3>Smart Traffic Signal System</h3>
+                <p>
+                    An intelligent traffic management system designed to detect emergency
+                    vehicles using computer vision and prioritize their routes through
+                    connected traffic intersections.
+                </p>
+                <div class="list">
+                    <p>Computer Vision</p>
+                    <p>Python</p>
+                    <p>Raspberry Pi</p>
+                    <p>IoT</p>
+                    <p>Smart Systems</p>
+                </div>
+                <div class="project-button">
+                    <a href="">Ongoing</a>
+                </div>
+            </div>
+
+            <!-- Robotic Vision -->
+            <div class="project-card">
+                <h3>Interactive Vision-Based Robotic System</h3>
+                <p>
+                    Enhanced a vision-based robotic platform with person detection,
+                    automated movement sequences, and interactive eye-blinking behavior.
+                </p>
+                <div class="list">
+                    <p>HuskyLens</p>
+                    <p>Computer Vision</p>
+                    <p>Robotics</p>
+                    <p>Embedded Systems</p>
+                </div>
+            </div>
+
+            <!-- Robotic Ball Handling -->
+            <div class="project-card">
+                <h3>Robotic Ball Handling System</h3>
+                <p>
+                    Improved a robotic ball-handling mechanism by redesigning the
+                    gripping system and integrating an electromagnetic mechanism
+                    for improved object handling.
+                </p>
+                <div class="list">
+                    <p>Robotics</p>
+                    <p>Electronics</p>
+                    <p>Mechanical Design</p>
+                    <p>Prototyping</p>
+                </div>
+            </div>
+
+            <!-- POS -->
+            <div class="project-card">
+                <h3>Commercial Laundry POS System</h3>
+                <p>
+                    Developed a point-of-sale system for a commercial laundry business,
+                    designed to manage sales and business operations through a
+                    web-based interface.
+                </p>
                 <div class="list">
                     <p>HTML</p>
                     <p>CSS</p>
-                    <p>JS</p>
+                    <p>JavaScript</p>
                     <p>PHP</p>
-                    <p>VS Code</p>
                     <p>XAMPP</p>
                     <p>Git</p>
-                    <p>GitHub</p>
-                </div>
-                <a href="">GitHub</a>
-                <a href="">Available Soon</a>
-            </div> -->
-
-            <div class="project-card">
-                <h3>Simple Bank System</h3>
-                <p>simple bank system - console java program,includes processes for depositing and withdrawing funds and
-                    checking the balance.</p>
-                <div class="list">
-                    <p>Java</p>
-                    <p>Eclipse</p>
-                    <p>Git</p>
-                    <p>GitHub</p>
-
                 </div>
                 <div class="project-button">
-                    <a href="https://github.com/Abdullah1yaseen/simpleBankingSystem">GitHub</a>
-
+                    <a href="https://github.com/Abdullah1yaseen/POS-akoya">GitHub</a>
                 </div>
             </div>
 
+            <!-- Bank System -->
             <div class="project-card">
-                <h3>Real estate recommendation website</h3>
-                <p>Real Estate Recommendation Website - Recommends the best properties to the client with a property
-                    rating system and a clear description of each property.</p>
-                <div class="list">
-                    <p>PHP</p>
-                    <p>HTM</p>
-                    <p>CSS</p>
-                    <p>JS</p>
-                    <p>Eclipse</p>
-                    <p>Git</p>
-                    <p>GitHub</p>
-                    <p>XAMPP</p>
-
-                </div>
-                <div class="project-button">
-                    <a href="https://github.com/Abdullah1yaseen/properties-recommendation-website">GitHub</a>
-
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>Bank System</h3>
-                <p>Bank System - console java program (Work in progress), foucsing in applying OOP programming, also It
-                    includes the
-                    feature of creating and managing accounts by the bank's management and the user.</p>
+                <h3>Core Banking System</h3>
+                <p>
+                    A Java console-based banking application focused on object-oriented
+                    programming, account management, deposits, withdrawals, and
+                    transaction handling.
+                </p>
                 <div class="list">
                     <p>Java</p>
+                    <p>OOP</p>
                     <p>Eclipse</p>
                     <p>Git</p>
                     <p>GitHub</p>
                 </div>
                 <div class="project-button">
                     <a href="https://github.com/Abdullah1yaseen/CoreBank-Console">GitHub</a>
-
                 </div>
             </div>
-            <div class="project-card">
-                <h3>
-                    WordPress Store</h3>
-                <p>
-                    WordPress Store - sells E-cards, Envelopes, giveaways etc</p>
-                <div class="list">
-                    <p>WordPress</p>
-                    <p>WooCommerce</p>
-                </div>
-                <div class="project-button">
-                    <a href="https://classicaltouch.shop/">Demo</a>
 
-                </div>
-            </div>
+            <!-- Simple Banking -->
             <div class="project-card">
-                <h3>
-                    POS</h3>
+                <h3>Simple Banking System</h3>
                 <p>
-                    POS For a commercial laundry project</p>
+                    A Java console application implementing basic banking operations
+                    including deposits, withdrawals, and balance management.
+                </p>
                 <div class="list">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JS</p>
+                    <p>Java</p>
+                    <p>Eclipse</p>
                     <p>Git</p>
                     <p>GitHub</p>
                 </div>
                 <div class="project-button">
-                    <a href="https://github.com/Abdullah1yaseen/POS-akoya">GitHub</a>
-
+                    <a href="https://github.com/Abdullah1yaseen/simpleBankingSystem">GitHub</a>
                 </div>
             </div>
+
+            <!-- Real Estate -->
             <div class="project-card">
-                <h3>
-                    Ultrasonic radar System </h3>
+                <h3>Real Estate Recommendation Website</h3>
                 <p>
-                    simple radar using ultrasonic sensor and servo motor</p>
+                    A web application that helps users find suitable properties through
+                    property recommendations, ratings, and detailed property information.
+                </p>
                 <div class="list">
-                    <p>Arduino IDE</p>
-                    <p>ESP32</p>
-                    <p>processing</p>
-
+                    <p>PHP</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>XAMPP</p>
+                    <p>Git</p>
+                </div>
+                <div class="project-button">
+                    <a href="https://github.com/Abdullah1yaseen/properties-recommendation-website">GitHub</a>
                 </div>
             </div>
 
+
+            <!-- LED Game -->
+            <div class="project-card">
+                <h3>LED Strip Shooting Game</h3>
+                <p>
+                    An interactive embedded game using addressable LEDs, sensors,
+                    and custom control logic to create a physical shooting game.
+                </p>
+                <div class="list">
+                    <p>Arduino</p>
+                    <p>ESP32</p>
+                    <p>LEDs</p>
+                    <p>Sensors</p>
+                    <p>Embedded C</p>
+                </div>
+                <div class="project-button">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
+
+            <!-- NFC -->
+            <div class="project-card">
+                <h3>NFC Smart Keychain</h3>
+                <p>
+                    A compact NFC-based smart keychain designed for contactless
+                    interaction and digital information sharing.
+                </p>
+                <div class="list">
+                    <p>NFC</p>
+                    <p>Embedded Systems</p>
+                    <p>3D Design</p>
+                    <p>3D Printing</p>
+                </div>
+                <div class="project-button">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Ultrasonic Radar -->
+            <div class="project-card">
+                <h3>Ultrasonic Radar System</h3>
+                <p>
+                    A simple radar system that uses an ultrasonic sensor mounted
+                    on a servo motor to detect objects across different angles.
+                </p>
+                <div class="list">
+                    <p>ESP32</p>
+                    <p>Arduino IDE</p>
+                    <p>Ultrasonic Sensor</p>
+                    <p>Servo Motor</p>
+                </div>
+                <div class="project-button">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
 
         </div>
+
+
     </section>
 
     <section class="services" id="services">
+
+        ```
         <div class="service-title">
-            <h2>How I Can Help</h2>
+            <h2>What I Can Build</h2>
         </div>
 
         <div class="service-container">
+
             <div class="service-card">
-                <h3>Website development</h3>
-                <p>Website design and development tailored to your needs, modern and responsive designs.</p>
+                <h3>Software Development</h3>
+                <p>
+                    Developing software solutions using Python, C, Java, and JavaScript,
+                    from application logic to complete software systems tailored to
+                    specific requirements.
+                </p>
             </div>
+
             <div class="service-card">
-                <h3>Developing eCommerce Stores</h3>
-                <p>Developing customized e-commerce stores for your business project and integrating them with payment
-                    gateways, with modern designs and a good user experience.</p>
+                <h3>Embedded Systems</h3>
+                <p>
+                    Designing and developing embedded systems using ESP32, Arduino,
+                    and Raspberry Pi, including sensor integration, hardware control,
+                    and software-hardware communication.
+                </p>
             </div>
+
             <div class="service-card">
-                <h3>AI business solutions and automation</h3>
-                <p>Develop and support your business with artificial intelligence, saving time and effort and increasing
-                    productivity.</p>
+                <h3>IoT & Smart Systems</h3>
+                <p>
+                    Building connected IoT and smart systems using technologies such as
+                    MQTT, ESP-NOW, BLE, Wi-Fi, and sensors for real-time monitoring,
+                    communication, and automation.
+                </p>
             </div>
+
+            <div class="service-card">
+                <h3>Automation & Intelligent Systems</h3>
+                <p>
+                    Developing intelligent and automated solutions that combine software,
+                    sensors, embedded systems, and AI to improve processes and solve
+                    real-world problems.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Computer Vision Solutions</h3>
+                <p>
+                    Developing camera-based systems for object detection, QR recognition,
+                    monitoring, and other computer vision applications using Python and
+                    embedded computing platforms.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>3D Design & Prototyping</h3>
+                <p>
+                    Designing custom mechanical components and enclosures using Fusion 360
+                    and Onshape, followed by prototyping and 3D printing for real-world
+                    engineering projects.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Web & eCommerce Development</h3>
+                <p>
+                    Developing responsive websites and eCommerce solutions using modern
+                    web technologies, WordPress, WooCommerce, PHP, and Flask.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Technical Problem Solving</h3>
+                <p>
+                    Analyzing technical challenges and developing practical solutions
+                    through engineering thinking, research, prototyping, testing,
+                    and troubleshooting.
+                </p>
+            </div>
+
         </div>
+        ```
 
     </section>
 
+
     <section class="contact" id="contact">
+
+        ```
         <div class="contact-title">
-            <h2>Contact Me</h2>
-            <p>Question | Inquiry | Business</p>
+            <h2>Get In Touch</h2>
+            <p>Projects | Collaboration | Opportunities | Inquiries</p>
         </div>
+
         <form action="mailto:a0bdullah.yaseen01@gmail.com" method="post" enctype="text/plain">
+
             <input type="text" name="name" placeholder="Your Name" required>
+
             <input type="email" name="email" placeholder="Your Email" required>
-            <textarea cols="50" rows="15" name="message" placeholder="Your message..." required></textarea>
-            <button type="submit">Send</button>
+
+            <textarea cols="50" rows="15" name="message" placeholder="Tell me about your project, idea, or inquiry..."
+                required></textarea>
+
+            <button type="submit">Send Message</button>
+
         </form>
+        ```
 
-        <div class="social-icons">
-            <a
-                href="https://www.linkedin.com/in/abdullah-a-b7102234b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/a.bdullah_yaseen?igsh=aDA3Z3d1ODVramZi">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://wa.me/qr/QJSN25VXH6ZOJ1">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
+    </section>
 
-        </div>
+
+    <div class="social-icons">
+        <a
+            href="https://www.linkedin.com/in/abdullah-a-b7102234b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/a.bdullah_yaseen?igsh=aDA3Z3d1ODVramZi">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/qr/QJSN25VXH6ZOJ1">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+    </div>
 
 
     </section>
